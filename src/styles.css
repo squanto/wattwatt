@@ -1,14 +1,14 @@
 /*VARIABLES*/
 :root {
-  --color1: #333333;
-  --color2: #ffffff;
-  --backgroundColor-1: #e4e4e4;
+  --color1: #000;
+  --color2: #355a7a;
+  --backgroundColor-1: #355a7a;
   --background-2: #000;
 
   --accent-1: #426c0b;
   --accent-2: #426c0b;
 
-  --background-1: #1d1d1d;
+  --background-1: #fff;
   --background-2: rgb(245, 245, 245);
   --background-3: #355a7a;
 
@@ -72,13 +72,14 @@ width: 100%;
 
 section.radar main aside {
 color: var(--color2);
+margin-left: 4rem;
 }
 
 .title {
 width: 100%;
 display: flex;
 margin-top: 3rem;
-color: white;
+color: #355a7a;
 
 height: 10rem;
 align-items: center;
@@ -86,7 +87,7 @@ position: relative;
 }
 
 .title.services {
-  background-image: url("/assets/images/background-wood.png");
+  background-image: url("/assets/images/skyline.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,7 +103,9 @@ position: relative;
   background: var(--background-1);
   height: 100%;
   width: 100%;
-  opacity: .5;
+  opacity: 0;
+  top: 0;
+  color: white; 
 }
 
 .title img,
@@ -161,7 +164,7 @@ ul.value-props li {
 
 section.main li {
   list-style: none;
-  color: white;
+  color: #355a7a;
 }
 
 section.main main {
@@ -169,9 +172,15 @@ section.main main {
   align-items: center;
   height: 100vh;
   /*background: #1d1d1d;*/
-  color: white;
-  opacity: .93;
-  justify-content: space-around;
+  color: #355a7a;
+  justify-content: flex-start;
+}
+
+section.main main h2{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 48px;
+  color: #355a7a;
 }
 
 section.benefits {
@@ -203,7 +212,7 @@ section.benefits div.card {
 
 footer {
   height: 35vh;
-  background: #3B3B3B;
+  background: #355a7a;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -213,7 +222,7 @@ footer aside {
   height: 35vh;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   color: white;

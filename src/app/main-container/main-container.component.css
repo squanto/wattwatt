@@ -7,14 +7,50 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--background-1);
+  background: none;
   opacity: .9;
 }
+
+.buttonRow {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.buttonRow button{
+  height: 45px; 
+  width: 180px;
+  background:#355a7a; 
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  margin-top: 1rem;
+}
+
+.buttonRow button p{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.headerContainer {
+    position: relative;
+    
+}
+
+
+.headerContainer aside {
+  margin-left: 10rem;  
+  margin-bottom: 10rem;
+}
+
 
 aside {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .radar aside,
@@ -23,14 +59,15 @@ footer aside {
 }
 
 .bg {
-  background-image: url("../../assets/images/hubble.jpg");
+  background-image: url("../../assets/images/wattwattHeader.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  width: 100vw;
+  width: 45vw;
   height: 100%;
-  top: 0;
-  z-index: -2;
+  top: -5rem;
+  right: 0;
+  z-index: 10;
 }
 
 .benefit-cards {

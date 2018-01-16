@@ -11,8 +11,8 @@ export class EaServicesComponent implements OnInit {
 
   services = [
     {
-      image: 'modeling.jpeg',
-      service: 'Process Documentation',
+      image: 'solarpanel.svg',
+      service: 'Smart Contract Vehicle',
       feature: [
         {
           item: 'Full process modeling',
@@ -26,8 +26,8 @@ export class EaServicesComponent implements OnInit {
       ],
     },
     {
-      image: 'root-cause.jpeg',
-      service: 'Root Cause Analysis',
+      image: 'financing.svg',
+      service: 'Secure Microfinancing',
       feature: [
         {
           item: 'Digital process monitoring',
@@ -41,7 +41,7 @@ export class EaServicesComponent implements OnInit {
       ],
     },
     {
-      image: 'solution.jpeg',
+      image: 'growth.svg',
       service: 'Rapid Solution Authoring',
       feature: [
         {
