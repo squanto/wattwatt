@@ -15,7 +15,7 @@ export class EaServicesComponent implements OnInit {
       service: 'Smart Contract Vehicle',
       feature: [
         {
-          item: 'Full process modeling',
+          item: 'Average return 7%-10%',
         },
         {
           item: 'Analysis of potential bottlenecks',
