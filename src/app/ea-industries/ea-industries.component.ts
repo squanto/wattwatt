@@ -13,70 +13,70 @@ export class EaIndustriesComponent implements OnInit {
   industries = [
     {
       image: 'healthcare.jpeg',
-      title: 'Primary Care Practice',
-      bio: 'Process Reingeneering',
+      title: '-',
+      bio: 'Financing Solar Installations',
       problems: [
         {
-          name: 'Process had severe bottlenecks'
+          name: 'Existing system is chain of intermediaries'
         },
         {
-          name: 'No process documentation or measurements in place'
+          name: 'Difficult and risky to finance on your own'
         }
       ],
       solutions: [
         {
-          name: 'Full practice wide process documentation'
+          name: 'Run capital through smart contracts'
         },
         {
-          name: 'Bottleneck detection'
+          name: 'Crowdfund to access low cost capital'
         },
         {
-          name: 'Process reingeneering and improvements'
+          name: 'Crowdsource due diligence through enganged verifiers'
         }
       ]
     },
     {
       image: 'code.jpeg',
-      title: 'Fortune 100',
-      bio: 'Enterprise Application',
+      title: '-',
+      bio: 'Funding For Installations',
       problems: [
         {
-          name: 'No framework for enterprise components'
+          name: 'Finance industry can dictate terms'
         },
         {
-          name: 'Poor quality code output'
+          name: 'Capital takes extended period to arrive'
         }
       ],
       solutions: [
         {
-          name: 'solution 1'
+          name: 'Crowdfunding levels playing field'
         },
         {
-          name: 'solution 2'
+          name: 'Causes financers to become emotionally invested in solar'
         },
         {
-          name: 'solution 3'
+          name: 'Cryptocurrency arrives same-day'
         }
       ]
     },
     {
       image: 'analytics.jpg',
-      title: 'NASDAQ Listed Company',
-      bio: 'Automated Reporting',
+      title: '-',
+      bio: 'Incentivizing Verification',
       problems: [
         {
-          name: 'CTO missing delivery dates'
+          name: 'Due diligence can be an expensive aspect of finance '
         },
         {
-          name: 'No visibility into processes'
+          name: 'Investors need to know what projects are not worthwhile'
         }
       ],
       solutions: [
         {
-          name: 'solution 1'
+          name: 'Token curated registry managed by invested individuals'
         },
         {
-          name: 'solution 2'
+          name: 'Verifiers will '
         },
         {
           name: 'solution 3'
