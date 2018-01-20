@@ -13,7 +13,7 @@ export class EaIndustriesComponent implements OnInit {
   industries = [
     {
       image: 'healthcare.jpeg',
-      title: '-',
+      title: 'Smart Contract',
       bio: 'Financing Solar Installations',
       problems: [
         {
@@ -25,19 +25,19 @@ export class EaIndustriesComponent implements OnInit {
       ],
       solutions: [
         {
-          name: 'Run capital through smart contracts'
+          name: 'Running capital and repayment through blockchain'
         },
         {
-          name: 'Crowdfund to access low cost capital'
+          name: 'Putting together a solar investment community'
         },
         {
-          name: 'Crowdsource due diligence through enganged verifiers'
+          name: 'Individuals make more from their capital'
         }
       ]
     },
     {
       image: 'code.jpeg',
-      title: '-',
+      title: 'The Old Way',
       bio: 'Funding For Installations',
       problems: [
         {
@@ -49,37 +49,37 @@ export class EaIndustriesComponent implements OnInit {
       ],
       solutions: [
         {
-          name: 'Crowdfunding levels playing field'
+          name: 'Leveling playing field for installers with crowdfunding'
         },
         {
-          name: 'Causes financers to become emotionally invested in solar'
+          name: 'Financers become personally invested in solar projects'
         },
         {
-          name: 'Cryptocurrency arrives same-day'
+          name: 'Cryptocurrency capital arrives same-day'
         }
       ]
     },
     {
       image: 'analytics.jpg',
-      title: '-',
+      title: 'Due Diligence',
       bio: 'Incentivizing Verification',
       problems: [
         {
-          name: 'Due diligence can be an expensive aspect of finance '
+          name: 'Due diligence is expensive for finance'
         },
         {
-          name: 'Investors need to know what projects are not worthwhile'
+          name: 'Investors skeptical of non-verified projects'
         }
       ],
       solutions: [
         {
-          name: 'Token curated registry managed by invested individuals'
+          name: 'Curated registry managed by tokens'
         },
         {
-          name: 'Verifiers will '
+          name: 'Verifiers compensated for convincing the community'
         },
         {
-          name: 'solution 3'
+          name: 'Verifiers are incentivized to increase value of network tokens and the registry'
         }
       ]
     }

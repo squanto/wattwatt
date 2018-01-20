@@ -15,43 +15,43 @@ export class EaServicesComponent implements OnInit {
       service: 'Smart Contract Vehicle',
       feature: [
         {
-          item: 'Average return 7%-10%',
+          item: 'Control over your ability to transfer without intermediaries',
         },
         {
-          item: 'Analysis of potential bottlenecks',
+          item: 'Small transfer times with no cencorship possible',
         },
         {
-          item: 'To-be state modeling',
-        }
-      ],
-    },
-    {
-      image: 'financing.svg',
-      service: 'Secure Microfinancing',
-      feature: [
-        {
-          item: 'Digital process monitoring',
-        },
-        {
-          item: 'Real-time anamoly detection',
-        },
-        {
-          item: 'Ongoing root-cause analytics',
+          item: 'Immutability if desired',
         }
       ],
     },
     {
       image: 'growth.svg',
-      service: 'Rapid Solution Authoring',
+      service: 'Secure Crowdfunding',
       feature: [
         {
-          item: 'Bottleneck specific solution development',
+          item: 'Contracts built by experienced software team',
         },
         {
-          item: 'Rapid development methodology',
+          item: 'Highly scalable to handle growing investment demand',
         },
         {
-          item: 'Measured process improvements',
+          item: 'Automated repayment and low cost service',
+        }
+      ],
+    },
+    {
+      image: 'financing.svg',
+      service: 'Verification in Investors Interest',
+      feature: [
+        {
+          item: 'WattWatt team composed of experienced professionals',
+        },
+        {
+          item: 'Decentralization allows for community verification',
+        },
+        {
+          item: 'Token economics built to align communitys interest with each other',
         }
       ],
     }
