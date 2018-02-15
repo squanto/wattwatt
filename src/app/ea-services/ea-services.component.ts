@@ -11,7 +11,7 @@ export class EaServicesComponent implements OnInit {
 
   services = [
     {
-      image: 'solarpanel.svg',
+      image: 'financing.svg',
       service: 'Smart Contract Vehicle',
       feature: [
         {
@@ -41,7 +41,7 @@ export class EaServicesComponent implements OnInit {
       ],
     },
     {
-      image: 'financing.svg',
+      image: 'solarpanel.svg',
       service: 'Verification in Investors Interest',
       feature: [
         {
@@ -51,7 +51,7 @@ export class EaServicesComponent implements OnInit {
           item: 'Decentralization allows for community verification',
         },
         {
-          item: 'Token economics built to align communitys interest with each other',
+          item: 'Token economics built to align verifiers interest with investors',
         }
       ],
     }

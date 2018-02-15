@@ -12,7 +12,7 @@ export class EaIndustriesComponent implements OnInit {
 
   industries = [
     {
-      image: 'healthcare.jpeg',
+      image: 'code.jpeg',
       title: 'Smart Contract',
       bio: 'Financing Solar Installations',
       problems: [
@@ -25,23 +25,23 @@ export class EaIndustriesComponent implements OnInit {
       ],
       solutions: [
         {
-          name: 'Running capital and repayment through blockchain'
+          name: 'Running capital raise and repayment through blockchain'
         },
         {
-          name: 'Putting together a solar investment community'
+          name: 'Assemble a solar investment community to run the platform'
         },
         {
-          name: 'Individuals make more from their capital'
+          name: 'Individuals earn more from their capital'
         }
       ]
     },
     {
-      image: 'code.jpeg',
+      image: 'healthcare.jpeg',
       title: 'The Old Way',
       bio: 'Funding For Installations',
       problems: [
         {
-          name: 'Finance industry can dictate terms'
+          name: 'Finance industry dictates most terms'
         },
         {
           name: 'Capital takes extended period to arrive'
@@ -65,7 +65,7 @@ export class EaIndustriesComponent implements OnInit {
       bio: 'Incentivizing Verification',
       problems: [
         {
-          name: 'Due diligence is expensive for finance'
+          name: 'Financial due diligence can be expensive'
         },
         {
           name: 'Investors skeptical of non-verified projects'
@@ -76,7 +76,7 @@ export class EaIndustriesComponent implements OnInit {
           name: 'Curated registry managed by tokens'
         },
         {
-          name: 'Verifiers compensated for convincing the community'
+          name: 'Verifiers compensated directly through economics of token model'
         },
         {
           name: 'Verifiers are incentivized to increase value of network tokens and the registry'
