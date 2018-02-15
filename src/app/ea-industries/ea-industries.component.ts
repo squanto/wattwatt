@@ -19,7 +19,7 @@ export class EaIndustriesComponent implements OnInit {
     {
       image: 'code.jpeg',
       title: 'Smart Contract',
-      bio: 'Financing Installations',
+      bio: 'Financing Solar Installations',
       problems: [
         {
           name: 'Existing system is chain of intermediaries'

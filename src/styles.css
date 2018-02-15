@@ -137,7 +137,7 @@ section.main ul.nav {
   display: flex;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 20%;
   justify-content: space-around;
   right: 0;
   top: 0;
@@ -145,6 +145,9 @@ section.main ul.nav {
   display: flex;
   align-items: center;
 }
+
+
+  
 
 section.main main ul {
   padding:0;
@@ -260,6 +263,33 @@ form input {
   font-size: 16px;
 }
 
+
+@media (max-width: 500px) {   
+  
+  section.main ul.nav {
+    display: none;
+  }
+
+  section.main nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 70px;
+    background: white;
+    position: fixed;
+    border-bottom: 1px solid #355a7a; 
+  }
+
+  .image-card {
+    width: 90%;
+  }
+
+}
+
+
 h2,
 h3 {
 margin: 0;
@@ -363,3 +393,5 @@ footer main ul {
   width: 25px;
   height: 25px;
 }
+
+

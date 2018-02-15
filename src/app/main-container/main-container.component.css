@@ -135,4 +135,29 @@ justify-content: center;
 
 .contact-us {
   height: 30vh;
+  display: flex;
 }
+
+.intouch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intouch h2 {
+  font-size: 32px;
+}
+
+
+@media (max-width: 500px) {   
+  
+  .headerContainer aside {
+    margin-left: 0;
+  }
+
+  .intouch h2 {
+    font-size: 22px;
+  }
+
+}
+  

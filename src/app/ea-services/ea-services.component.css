@@ -52,3 +52,13 @@ flex-direction: column;
 .mini-logo {
   width: 50px;
 }
+
+
+@media (max-width: 500px) {   
+  
+
+  .image-card {
+    width: 90%;
+  }
+
+}
