@@ -1,8 +1,8 @@
 <div class="card-industry" *ngFor="let person of industries" >
   <img class="industry-pic" alt="" src="../assets/images/{{person.image}}">
-  <label for="main1">{{person.title}}</label>
+  <!-- <div class="pricingHeader">{{person.title}}</div> -->
+  
   <main id="main1">
-    <h2>{{person.bio}}</h2>
     <ul>
       <p>Problem</p>
       <li *ngFor="let items of person.problems">{{items.name}}</li>

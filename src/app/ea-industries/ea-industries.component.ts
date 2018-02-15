@@ -9,6 +9,11 @@ export class EaIndustriesComponent implements OnInit {
 
   constructor() { }
 
+  caseStudy = false;
+
+  toggleCaseStudy () {
+    this.caseStudy = !this.caseStudy;
+  }
 
   industries = [
     {

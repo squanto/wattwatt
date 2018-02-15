@@ -1,5 +1,4 @@
 <section class="main">
-  <img class="nav" alt="" src="../assets/images/wattwatt.svg">
   <app-nav></app-nav>
   <main class="headerContainer">
     <div style="position: relative;">
@@ -7,11 +6,11 @@
         <h2>
           WattWatt
         </h2>
-        <h3>Save the world</h3>
+        <h3>Fund a Panel, Save the world</h3>
 
         <section class="buttonRow">
-          <button><p>Fund a Panel</p></button>
-          <button><p>Apply for Loan</p></button>
+          <a href="https://vincenzbuhler.typeform.com/to/oN0Xr7"><button class="apply-button"><p>  Fund a Panel</p></button></a>
+          <button class="apply-button"><p>Apply for Loan</p></button>
         </section>
         <!-- <br>
       <br>
@@ -49,13 +48,10 @@
 </section>
 
 <section id="services" class="radar">
-  <div class="title services">
-    <div class="cover"></div>
-    <img src="../assets/images/line.svg" alt="">
-    <span>About Watt Watt
-      
-    </span>
-  </div>
+  <!-- <div class="title services">
+    <img class="partner-logo" src="../assets/images/moloch.svg" alt="">
+    <img class="partner-logo" src="../assets/images/ea.svg" alt="">
+  </div> -->
   <main>
     <ea-services></ea-services>
   </main>
@@ -63,18 +59,28 @@
 </section>
 
 <section id="studies" class="industries">
-  <div class="title team">
-    <div class="cover"></div>
-    <img src="../assets/images/line.svg" alt="">
-    <span>WattWatt Case Studies</span>
-  </div>
+
   <main class="case-studies">
-    <app-ea-industries></app-ea-industries>
-    <!-- <button (click)="toggleCaseStudy()"></button>
-    <div *ngIf="caseStudy === true">
-      <div class="expandable">
-      </div>
-    </div> -->
+    <section style="width: 80%;">
+      <app-ea-industries></app-ea-industries>
+
+    </section>
+  </main>
+</section>
+
+<section id="contact" class="contact-us"> 
+
+  <aside class="intouch">
+    <h2 style="width: 60%;">To stay in touch for our ICO, please feel free to reach out to 
+      info@wattwatt.io. 
+    </h2>
+    <!-- <section class="buttonRow">
+      <a href="https://vincenzbuhler.typeform.com/to/oN0Xr7"><button class="apply-button"><p>Join our Discord</p> <span><img  src="../../assets/images/discord.svg" alt="">
+      </span></button></a>
+    </section> -->
+  </aside>
+  <main>
+
   </main>
 </section>
 
