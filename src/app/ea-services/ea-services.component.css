@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  display: flex;
+  width: 100%;
 }
 
 li {
@@ -29,4 +31,24 @@ span.header {
   align-items: center;
   justify-content: space-between;
   margin-top: 1rem;
+}
+
+
+.service-row {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+}
+
+.mission {
+  width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30vh;
+flex-direction: column;
+}
+
+.mini-logo {
+  width: 50px;
 }

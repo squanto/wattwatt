@@ -9,12 +9,17 @@ export class EaIndustriesComponent implements OnInit {
 
   constructor() { }
 
+  caseStudy = false;
+
+  toggleCaseStudy () {
+    this.caseStudy = !this.caseStudy;
+  }
 
   industries = [
     {
       image: 'code.jpeg',
       title: 'Smart Contract',
-      bio: 'Financing Solar Installations',
+      bio: 'Financing Installations',
       problems: [
         {
           name: 'Existing system is chain of intermediaries'

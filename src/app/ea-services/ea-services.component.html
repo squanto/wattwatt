@@ -1,8 +1,14 @@
-  <aside *ngFor="let items of services">
-    <div class="image-card">
-      <img style="height: 100%; weird: 100%;" src="../../assets/images/{{items.image}}" alt="">
+  
+  <section class="mission">
+      <img class="mini-logo" alt="" src="../assets/images/wattwatt.svg">
+      <h2>WattWatt Energy Revolution</h2>
+      <p>WattWatt is transforming the landscape of solar panel funding</p>
+  </section>
+  <aside *ngFor="let items of services" >
+    <div  class="image-card">
+      <img style="height: 100%; width: 100%;" src="../../assets/images/{{items.image}}" alt="">
     </div>
-    <span class="header"> <h2>{{items.service}}</h2></span>
+    <span class="header"> <h2 class="service-row">{{items.service}}</h2></span>
     <ul >
       <li *ngFor="let feats of items.feature"><span><img class="checkmark" src="../../assets/images/checkmark.svg" alt=""></span>{{feats.item}}</li>
     </ul>

@@ -37,3 +37,20 @@ p {
 h2 {
   font-weight: 900;
 }
+
+.pricingHeader {
+  height: 10vh; 
+  color: white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.panel-bg {
+
+}
+
+.panel-background {
+  width: 40%;
+}

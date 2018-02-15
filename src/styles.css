@@ -72,7 +72,6 @@ width: 100%;
 
 section.radar main aside {
 color: var(--color2);
-margin-left: 4rem;
 }
 
 .title {
@@ -80,16 +79,14 @@ width: 100%;
 display: flex;
 margin-top: 3rem;
 color: #355a7a;
-
-height: 10rem;
+height: 100px;
 align-items: center;
 position: relative;
+justify-content: center;
 }
 
 .title.services {
-  background-image: url("/assets/images/skyline.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #e6e6e6;
 }
 
 .title.team {
@@ -122,12 +119,16 @@ padding-left: 10px;
 }
 
 section.main nav {
-  position: absolute;
   display: flex;
+  justify-content: flex-start;
   width: 100%;
   right: 0;
-  top: 10px;
+  top: 0;
   z-index: 99;
+  height: 70px;
+  background: white;
+  position: fixed;
+  border-bottom: 1px solid #355a7a; 
 }
 
 section.main ul.nav {
@@ -139,7 +140,10 @@ section.main ul.nav {
   width: 25%;
   justify-content: space-around;
   right: 0;
-  top: 10px
+  top: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
 
 section.main main ul {
@@ -170,7 +174,7 @@ section.main li {
 section.main main {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   /*background: #1d1d1d;*/
   color: #355a7a;
   justify-content: flex-start;
@@ -204,8 +208,9 @@ section.benefits div.card {
   min-height: 17.5rem;
   min-width: 17.5rem;
   max-width: 20rem;
-  border-top: 3px solid #9b0090;
   margin-bottom: 2rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px; 
   display: flex;
   flex-direction: column;
 }
@@ -219,12 +224,12 @@ footer {
 }
 
 footer aside {
+  flex-direction: column;
   height: 35vh;
   color: white;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 
@@ -272,7 +277,16 @@ font-size: 22px;
 footer main {
   display: flex;
   justify-content: space-evenly;
-  width: 60%;
+  width: 100%;
+  height: 60px;
+}
+
+footer main img {
+  width: 25px;
+}
+
+footer main a {
+  display: flex;
 }
 
 footer aside h2 {
