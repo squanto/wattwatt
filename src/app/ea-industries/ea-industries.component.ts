@@ -41,7 +41,7 @@ export class EaIndustriesComponent implements OnInit {
       ]
     },
     {
-      image: 'healthcare.jpeg',
+      image: 'buildings.jpeg',
       title: 'The Old Way',
       bio: 'Funding For Installations',
       problems: [
